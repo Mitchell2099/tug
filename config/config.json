@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "tug-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/tug/TugApplicationCustomizer.js",
+          "manifest": "./src/extensions/tug/TugApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TugApplicationCustomizerStrings": "lib/extensions/tug/loc/{locale}.js"
+  }
+}

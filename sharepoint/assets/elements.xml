@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="Tug"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="a736db17-1e5d-4860-a76d-ca070ca04b86"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>
